@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+#mullPart .red_overlay, #mullPart .bull_overlay, #mullPart .img_overlay, #mullPart .img_one_overlay, #mullPart .gray_overlay {
+  padding: 50px;
+  color: white;
+}
+
+#mullPart .red_overlay h3, #mullPart .bull_overlay h3, #mullPart .img_overlay h3, #mullPart .img_one_overlay h3, #mullPart .gray_overlay h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 50px;
+}
+
+#mullPart .red_overlay h3 span, #mullPart .bull_overlay h3 span, #mullPart .img_overlay h3 span, #mullPart .img_one_overlay h3 span, #mullPart .gray_overlay h3 span {
+  margin-left: 50px;
+  color: white;
+  margin-top: 15px;
+}
+
+#mullPart .red_overlay h3 span i, #mullPart .bull_overlay h3 span i, #mullPart .img_overlay h3 span i, #mullPart .img_one_overlay h3 span i, #mullPart .gray_overlay h3 span i {
+  border: 1px solid white;
+  background-color: black;
+}
+
+#LookDetails .lookDetails h4 {
+  padding: 15px 0px 15px 0px;
+}
+
+#navSection {
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  background-position: center;
+  padding: 45px;
+}
+
+.bannerContent {
+  margin: 700px 50px 22px 0px;
+}
+
+.bannerContent h2 {
+  color: white;
+}
+
+.bannerContent p {
+  color: white;
+}
+
+#someNew {
+  margin: 112px 0px 86px 0px;
+  font-family: "OpenSans Light";
+}
+
+.someNewImgCon {
+  position: relative;
+}
+
+.someNewImgCon img {
+  position: absolute;
+  top: -800px;
+  left: 0px;
+  margin-bottom: 600px;
+}
+
+.newContent {
+  margin-top: 100px;
+}
+
+#mullPart {
+  margin: 0px 20px 0px 20px;
+}
+
+#mullPart .col-md-4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mullPart .col-md-8 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mullPart .red_overlay {
+  background-color: #f5989d;
+}
+
+#mullPart .bull_overlay {
+  background-color: #615f7d;
+}
+
+#mullPart .img_overlay {
+  background: url(../img/pic1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mullPart .img_one_overlay {
+  background: url(../img/pic3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 122px;
+}
+
+#mullPart .gray_overlay {
+  background-color: #82ca9c;
+}
+
+#LookDetails {
+  padding: 93px 0px 160px 0px;
+}
+
+#LookDetails h3 {
+  font-size: 35px;
+  margin-bottom: 70px;
+}
+
+#morePower {
+  background: url(../img/pic4.png);
+  background-position: center;
+  background-size: cover;
+  padding: 450px 0px 132px 0px;
+}
+
+#morePower h3 {
+  color: white;
+  font-size: 60px;
+  font-family: "OpenSans Light";
+  margin-bottom: 40px;
+}
+
+#morePower p {
+  color: white;
+}
+
+#Reasons {
+  padding: 124px 0px 165px 0px;
+  background-color: #82ca9c;
+}
+
+#Reasons h3 {
+  color: white;
+  font-family: "OpenSans Light";
+  font-size: 35px;
+  margin-bottom: 65px;
+}
+
+#Reasons p {
+  color: white;
+  margin-bottom: 29px;
+}
+
+#goSolo {
+  padding: 105px 0px 145px 0px;
+  background-color: #f6f7fa;
+}
+
+#goSolo p {
+  margin-bottom: 40px;
+}
+
+#goSolo i {
+  font-size: 30px;
+}
+
+#goSolo .team {
+  margin: 46px 0px 53px 53px;
+}
+
+#goSolo .team .team_p {
+  margin-bottom: 23px;
+}
+
+#goSolo .team .team_p span {
+  background-color: #bd8cbf;
+  font-family: "OpenSans bold";
+  font-size: 11px;
+  color: white;
+  padding: 8px 56px;
+  border-radius: 5px;
+}
+
+#goSolo .team h4 {
+  font-size: 30px;
+  font-family: "OpenSans Light";
+  margin-bottom: 27px;
+}
+
+#goSolo .team p {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */

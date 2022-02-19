@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+$font-size: 18px;
+$font-family: "OpenSans Light";
+%overlay {
+  padding: 50px;
+  color: white;
+  h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 50px;
+    span {
+      margin-left: 50px;
+      color: white;
+      margin-top: 15px;
+      i {
+        border: 1px solid white;
+        background-color: black;
+      }
+    }
+  }
+}
+%lookAllRow {
+  padding: 15px 0px 15px 0px;
+}
+
+// nav section css start
+#navSection {
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  background-position: center;
+  padding: 45px;
+}
+.bannerContent {
+  margin: 700px 50px 22px 0px;
+  h2 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}
+// nav section css end
+
+// something new css start
+#someNew {
+  margin: 112px 0px 86px 0px;
+  font-family: $font-family;
+}
+
+.someNewImgCon {
+  position: relative;
+  img {
+    position: absolute;
+    top: -800px;
+    left: 0px;
+    margin-bottom: 600px;
+  }
+}
+.newContent {
+  margin-top: 100px;
+}
+// something new css end
+
+// multiPart css start
+#mullPart {
+  margin: 0px 20px 0px 20px;
+  .col-md-4 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .col-md-8 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .red_overlay {
+    background-color: #f5989d;
+    @extend %overlay;
+  }
+  .bull_overlay {
+    background-color: #615f7d;
+    @extend %overlay;
+  }
+  .img_overlay {
+    @extend %overlay;
+    background: url(../img/pic1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img_one_overlay {
+    @extend %overlay;
+    background: url(../img/pic3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 122px;
+  }
+
+  .gray_overlay {
+    background-color: #82ca9c;
+    @extend %overlay;
+  }
+}
+// multiPart css end
+
+// LookDetails css start
+#LookDetails {
+  padding: 93px 0px 160px 0px;
+  h3 {
+    font-size: 35px;
+    margin-bottom: 70px;
+  }
+  .lookDetails {
+    h4 {
+      @extend %lookAllRow;
+    }
+  }
+}
+// LookDetails css end
+
+// More Power css start
+#morePower {
+  background: url(../img/pic4.png);
+  background-position: center;
+  background-size: cover;
+  padding: 450px 0px 132px 0px;
+  h3 {
+    color: white;
+    font-size: 60px;
+    font-family: "OpenSans Light";
+    margin-bottom: 40px;
+  }
+  p {
+    color: white;
+  }
+}
+// More Power css end
+
+// Reasons to get onboard start
+#Reasons {
+  padding: 124px 0px 165px 0px;
+  background-color: #82ca9c;
+  h3 {
+    color: white;
+    font-family: "OpenSans Light";
+    font-size: 35px;
+    margin-bottom: 65px;
+  }
+  p {
+    color: white;
+    margin-bottom: 29px;
+  }
+}
+// Reasons to get onboard end
+
+// Go it solo start
+#goSolo {
+  padding: 105px 0px 145px 0px;
+  background-color: #f6f7fa;
+  p {
+    margin-bottom: 40px;
+  }
+  i {
+    font-size: 30px;
+  }
+
+  .team {
+    margin: 46px 0px 53px 53px;
+    .team_p {
+      span {
+        background-color: #bd8cbf;
+        font-family: "OpenSans bold";
+        font-size: 11px;
+        color: white;
+        padding: 8px 56px;
+        border-radius: 5px;
+      }
+      margin-bottom: 23px;
+    }
+    h4 {
+      font-size: 30px;
+      font-family: "OpenSans Light";
+      margin-bottom: 27px;
+    }
+    p {
+      font-size: 14px;
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+  }
+}
+// Go it solo end
