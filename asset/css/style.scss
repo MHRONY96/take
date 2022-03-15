@@ -193,4 +193,30 @@ $font-family: "OpenSans Light";
     }
   }
 }
+
+footer {
+  padding: 125px 0px 153px 0px;
+  background-color: #192431;
+  color: white;
+  .footer_get_touch {
+    margin-bottom: 70px;
+  }
+  .get_fore_footer {
+    margin-top: 29px;
+    p {
+      margin-bottom: 11px;
+    }
+  }
+  .searchBox {
+    input {
+      padding: 15px 60px;
+      margin-bottom: 20px;
+    }
+    span {
+      padding: 18px 15px;
+      background-color: #82ca9c;
+      margin-bottom: 20px;
+    }
+  }
+}
 // Go it solo end

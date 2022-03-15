@@ -193,4 +193,33 @@
   text-align: justify;
   margin-bottom: 30px;
 }
+
+footer {
+  padding: 125px 0px 153px 0px;
+  background-color: #192431;
+  color: white;
+}
+
+footer .footer_get_touch {
+  margin-bottom: 70px;
+}
+
+footer .get_fore_footer {
+  margin-top: 29px;
+}
+
+footer .get_fore_footer p {
+  margin-bottom: 11px;
+}
+
+footer .searchBox input {
+  padding: 15px 60px;
+  margin-bottom: 20px;
+}
+
+footer .searchBox span {
+  padding: 18px 15px;
+  background-color: #82ca9c;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
